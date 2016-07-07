@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		EFD4A4911D27F87E004C2096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4A4901D27F87E004C2096 /* AppDelegate.swift */; };
 		EFD4A4931D27F87E004C2096 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4A4921D27F87E004C2096 /* FirstViewController.swift */; };
-		EFD4A4951D27F87E004C2096 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4A4941D27F87E004C2096 /* SecondViewController.swift */; };
+		EFD4A4951D27F87E004C2096 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4A4941D27F87E004C2096 /* LocationVC.swift */; };
 		EFD4A4981D27F87E004C2096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD4A4961D27F87E004C2096 /* Main.storyboard */; };
 		EFD4A49A1D27F87E004C2096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD4A4991D27F87E004C2096 /* Assets.xcassets */; };
 		EFD4A49D1D27F87E004C2096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD4A49B1D27F87E004C2096 /* LaunchScreen.storyboard */; };
+		EFD4A4A51D284791004C2096 /* dunkinDonutAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4A4A41D284791004C2096 /* dunkinDonutAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFD4A48D1D27F87E004C2096 /* mapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4A4901D27F87E004C2096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD4A4921D27F87E004C2096 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EFD4A4941D27F87E004C2096 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EFD4A4941D27F87E004C2096 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		EFD4A4971D27F87E004C2096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFD4A4991D27F87E004C2096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD4A49C1D27F87E004C2096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFD4A49E1D27F87E004C2096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD4A4A41D284791004C2096 /* dunkinDonutAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dunkinDonutAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				EFD4A4901D27F87E004C2096 /* AppDelegate.swift */,
 				EFD4A4921D27F87E004C2096 /* FirstViewController.swift */,
-				EFD4A4941D27F87E004C2096 /* SecondViewController.swift */,
+				EFD4A4941D27F87E004C2096 /* LocationVC.swift */,
 				EFD4A4961D27F87E004C2096 /* Main.storyboard */,
 				EFD4A4991D27F87E004C2096 /* Assets.xcassets */,
 				EFD4A49B1D27F87E004C2096 /* LaunchScreen.storyboard */,
 				EFD4A49E1D27F87E004C2096 /* Info.plist */,
+				EFD4A4A41D284791004C2096 /* dunkinDonutAnnotation.swift */,
 			);
 			path = mapApp;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD4A4951D27F87E004C2096 /* SecondViewController.swift in Sources */,
+				EFD4A4A51D284791004C2096 /* dunkinDonutAnnotation.swift in Sources */,
+				EFD4A4951D27F87E004C2096 /* LocationVC.swift in Sources */,
 				EFD4A4911D27F87E004C2096 /* AppDelegate.swift in Sources */,
 				EFD4A4931D27F87E004C2096 /* FirstViewController.swift in Sources */,
 			);
